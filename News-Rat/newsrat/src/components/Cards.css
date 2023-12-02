@@ -1,0 +1,26 @@
+.customCard{
+    transition: all 250ms;
+}
+
+
+.customCard:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+
+
+/* Loader css */
+
+.loader {
+    height: 70vh;
+    display: flex;
+    position: relative;
+    top: calc(35vh - 60px);
+    justify-content: center;
+}
+
+.loader img {
+    width: 60px;
+    height: 60px;
+}

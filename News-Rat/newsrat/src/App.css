@@ -1,0 +1,15 @@
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(177, 177, 177);
+    border-radius: 10px;
+    transition: all 250ms;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+    background: rgb(154, 153, 153);
+  }
