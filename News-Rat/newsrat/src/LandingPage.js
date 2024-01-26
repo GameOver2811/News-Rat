@@ -20,7 +20,7 @@ export default class LandingPage extends Component {
   
   async componentDidMount(){
     this.setState({loading : true})
-    let data = await fetch("https://newsapi.org/v2/top-headlines?country=in&apiKey=ae4be03f75c54112882a9ad366f7784b&page=1&pageSize=8");
+    let data = await fetch("https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=c4567751a0ef4ec5b55d09883a2a2088");
     let parsedData = await data.json();
     // console.log(parsedData);
     this.setState({articles: parsedData.articles, totalResults : parsedData.totalResults , loading : false})
